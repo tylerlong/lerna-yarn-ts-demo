@@ -1,5 +1,5 @@
 {
-  "name": "@my-org/pkg2",
+  "name": "@my-test-random-org/pkg2",
   "version": "0.1.1",
   "description": "My second package",
   "author": "Tyler Long <tyler4long@gmail.com>",
@@ -25,5 +25,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "772ae41c3cb82065358424848838f63f102eaa5a"
 }

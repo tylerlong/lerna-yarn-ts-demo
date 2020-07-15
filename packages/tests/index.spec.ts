@@ -1,5 +1,5 @@
-import uniq1 from '@my-org/pkg1';
-import uniq2 from '@my-org/pkg2';
+import uniq1 from '@my-test-random-org/pkg1';
+import uniq2 from '@my-test-random-org/pkg2';
 
 describe('uniq', () => {
   test('pkg1', async () => {

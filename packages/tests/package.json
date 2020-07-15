@@ -1,5 +1,5 @@
 {
-  "name": "@my-org/tests",
+  "name": "@my-test-random-org/tests",
   "private": true,
   "version": "0.1.1",
   "description": "tests",
@@ -23,13 +23,13 @@
     "yarn-upgrade-all": "^0.5.4"
   },
   "dependencies": {
-    "@my-org/pkg1": "^0.1.1",
-    "@my-org/pkg2": "^0.1.1"
+    "@my-test-random-org/pkg1": "^0.1.1",
+    "@my-test-random-org/pkg2": "^0.1.1"
   },
   "yarn-upgrade-all": {
     "ignore": [
-      "@my-org/pkg1",
-      "@my-org/pkg2"
+      "@my-test-random-org/pkg1",
+      "@my-test-random-org/pkg2"
     ]
   }
 }

@@ -1,1 +1,1 @@
-# @my-org/pkg2
+# @my-test-random-org/pkg2
