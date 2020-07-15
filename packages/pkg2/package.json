@@ -22,5 +22,8 @@
     "gts": "^2.0.2",
     "typescript": "^3.9.6",
     "yarn-upgrade-all": "^0.5.4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
