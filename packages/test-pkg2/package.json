@@ -1,7 +1,7 @@
 {
-  "name": "@tylerlong/pkg1",
-  "version": "0.1.3",
-  "description": "My first package",
+  "name": "@tylerlong/test-pkg2",
+  "version": "0.0.1",
+  "description": "My second package",
   "author": "Tyler Long <tyler4long@gmail.com>",
   "homepage": "https://github.com/tylerlong/lerna-yarn-ts-demo",
   "license": "MIT",
@@ -14,8 +14,8 @@
     "url": "https://github.com/tylerlong/lerna-yarn-ts-demo/issues"
   },
   "dependencies": {
-    "@types/lodash": "^4.14.157",
-    "lodash": "^4.17.19"
+    "@types/ramda": "^0.27.11",
+    "ramda": "^0.27.0"
   },
   "devDependencies": {
     "@types/node": "^14.0.23",

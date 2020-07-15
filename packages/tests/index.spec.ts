@@ -1,11 +1,11 @@
-import uniq1 from '@tylerlong/pkg1';
-import uniq2 from '@tylerlong/pkg2';
+import uniq1 from '@tylerlong/test-pkg1';
+import uniq2 from '@tylerlong/test-pkg2';
 
 describe('uniq', () => {
-  test('pkg1', async () => {
+  test('test-pkg1', async () => {
     expect(uniq1([1, 2, 1, 2, 3])).toEqual([1, 2, 3]);
   });
-  test('pkg2', async () => {
+  test('test-pkg2', async () => {
     expect(uniq2([1, 2, 1, 2, 3])).toEqual([1, 2, 3]);
   });
 });
