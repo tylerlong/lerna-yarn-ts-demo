@@ -1,6 +1,9 @@
 {
   "name": "lerna-yarn-ts-demo",
+  "private": true,
+  "license": "MIT",
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "lerna": "^3.22.1",
+    "yarn-upgrade-all": "^0.5.4"
   }
 }
