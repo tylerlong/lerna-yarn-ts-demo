@@ -1,1 +1,1 @@
-# @my-test-random-org/pkg2
+# @tylerlong/pkg2

@@ -18,8 +18,8 @@ yarn jest
 ## Add local dependencies
 
 ```
-yarn lerna add @my-test-random-org/pkg1 packages/tests
-yarn lerna add @my-test-random-org/pkg2 packages/tests
+yarn lerna add @tylerlong/pkg1 packages/tests
+yarn lerna add @tylerlong/pkg2 packages/tests
 ```
 
 ## Upgrade all dependencies

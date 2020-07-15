@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "lint": "lerna exec 'gts fix'",
-    "test": "lerna exec 'jest' --scope=@my-test-random-org/tests",
+    "test": "lerna exec 'jest' --scope=@tylerlong/tests",
     "reset": "lerna clean -y && lerna bootstrap",
     "upgrade-all": "yarn-upgrade-all && lerna exec 'yarn-upgrade-all'"
   },
