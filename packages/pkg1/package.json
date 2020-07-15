@@ -1,0 +1,32 @@
+{
+  "name": "pkg1",
+  "version": "0.1.0",
+  "description": "My first package",
+  "keywords": [
+    "pkg1"
+  ],
+  "author": "Tyler Long <tyler4long@gmail.com>",
+  "homepage": "https://github.com/tylerlong/lerna-yarn-ts-demo",
+  "license": "MIT",
+  "main": "lib/pkg1.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylerlong/lerna-yarn-ts-demo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/tylerlong/lerna-yarn-ts-demo/issues"
+  }
+}
