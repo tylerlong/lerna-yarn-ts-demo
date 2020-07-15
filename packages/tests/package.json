@@ -15,10 +15,14 @@
   },
   "devDependencies": {
     "@types/jest": "^26.0.4",
+    "@types/node": "^13.11.1",
     "gts": "^2.0.2",
     "jest": "^26.1.0",
     "ts-jest": "^26.1.2",
-    "typescript": "^3.8.3",
-    "@types/node": "^13.11.1"
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@my-org/pkg1": "^0.1.0",
+    "@my-org/pkg2": "^0.1.0"
   }
 }

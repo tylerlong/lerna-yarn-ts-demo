@@ -14,3 +14,10 @@ yarn lint
 ```
 yarn jest
 ```
+
+## Add local dependencies
+
+```
+yarn lerna add @my-org/pkg1 packages/tests
+yarn lerna add @my-org/pkg2 packages/tests
+```

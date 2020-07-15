@@ -65,6 +65,13 @@
   resolved "https://registry.yarnpkg.com/@types/normalize-package-data/-/normalize-package-data-2.4.0.tgz#e486d0d97396d79beedd0a6e33f4534ff6b4973e"
   integrity sha512-f5j5b/Gf71L+dbqxIpQ4Z2WlmI/mPJ0fOkGGmFgtb6sAu97EPczzbS3/tJKxmcYDj55OX6ssqwDAWOHIYDRDGA==
 
+"@types/ramda@^0.27.11":
+  version "0.27.11"
+  resolved "https://registry.yarnpkg.com/@types/ramda/-/ramda-0.27.11.tgz#a2efedc1fecc0faa2d3530eb53cf468e219f7c51"
+  integrity sha512-pojA0+wBhjMWfwZ1tAea/OdUqZxaRQOi/vHldthrOIEPdRQdJb/hvU4yM1uHKGTT89ZZpxe43KM1sq5YGxS5lw==
+  dependencies:
+    ts-toolbelt "^6.3.3"
+
 "@typescript-eslint/eslint-plugin@2.31.0":
   version "2.31.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-2.31.0.tgz#942c921fec5e200b79593c71fafb1e3f57aa2e36"
@@ -1695,6 +1702,11 @@ trim-newlines@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/trim-newlines/-/trim-newlines-3.0.0.tgz#79726304a6a898aa8373427298d54c2ee8b1cb30"
   integrity sha512-C4+gOpvmxaSMKuEf9Qc134F1ZuOHVXKRbtEflf4NTtuuJDEIJ9p5PXsalL8SkeRw+qit1Mo+yuvMPAKwWg/1hA==
+
+ts-toolbelt@^6.3.3:
+  version "6.13.6"
+  resolved "https://registry.yarnpkg.com/ts-toolbelt/-/ts-toolbelt-6.13.6.tgz#4c9fad69bb3389323fe60982f18cd06b72f7d42a"
+  integrity sha512-qqIexrhqCNOuSRCrJMOKor8UJxA4DYMB6fNpBmRAKJgmLXNj8TAiuCrs7Nm08fva+MEdQhEXmsnjBQarNSIWZg==
 
 tslib@^1.8.1, tslib@^1.9.0:
   version "1.13.0"
