@@ -2,6 +2,10 @@
   "name": "lerna-yarn-ts-demo",
   "private": true,
   "license": "MIT",
+  "scripts": {
+    "lint": "lerna exec 'gts fix'",
+    "test": "lerna exec 'jest' --scope=@my-org/tests"
+  },
   "devDependencies": {
     "lerna": "^3.22.1",
     "yarn-upgrade-all": "^0.5.4"
