@@ -12,5 +12,10 @@
   },
   "bugs": {
     "url": "https://github.com/tylerlong/lerna-yarn-ts-demo/issues"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.4",
+    "jest": "^26.1.0",
+    "ts-jest": "^26.1.2"
   }
 }
