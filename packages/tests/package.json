@@ -15,11 +15,11 @@
   },
   "devDependencies": {
     "@types/jest": "^26.0.4",
-    "@types/node": "^13.11.1",
+    "@types/node": "^14.0.23",
     "gts": "^2.0.2",
     "jest": "^26.1.0",
     "ts-jest": "^26.1.2",
-    "typescript": "^3.8.3",
+    "typescript": "^3.9.6",
     "yarn-upgrade-all": "^0.5.4"
   },
   "dependencies": {

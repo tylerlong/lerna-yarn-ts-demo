@@ -6,7 +6,8 @@
     "lint": "lerna exec 'gts fix'",
     "test": "lerna exec 'jest' --scope=@tylerlong/tests",
     "reset": "lerna clean -y && lerna bootstrap",
-    "upgrade-all": "yarn-upgrade-all && lerna exec 'yarn-upgrade-all'"
+    "upgrade-all": "yarn-upgrade-all && lerna exec 'yarn-upgrade-all'",
+    "all": "yarn upgrade-all && yarn reset && yarn lint && yarn test"
   },
   "devDependencies": {
     "lerna": "^3.22.1",
