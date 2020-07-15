@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "lint": "lerna exec 'gts fix'",
-    "test": "lerna exec 'jest' --scope=@my-org/tests"
+    "test": "lerna exec 'jest' --scope=@my-org/tests",
+    "upgrade-all": "yarn-upgrade-all && lerna exec 'yarn-upgrade-all'"
   },
   "devDependencies": {
     "lerna": "^3.22.1",

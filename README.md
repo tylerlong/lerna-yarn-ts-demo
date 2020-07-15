@@ -21,3 +21,9 @@ yarn jest
 yarn lerna add @my-org/pkg1 packages/tests
 yarn lerna add @my-org/pkg2 packages/tests
 ```
+
+## Upgrade all dependencies
+
+```
+yarn upgrade-all
+```
