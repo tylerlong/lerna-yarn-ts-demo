@@ -19,10 +19,17 @@
     "gts": "^2.0.2",
     "jest": "^26.1.0",
     "ts-jest": "^26.1.2",
-    "typescript": "^3.8.3"
+    "typescript": "^3.8.3",
+    "yarn-upgrade-all": "^0.5.4"
   },
   "dependencies": {
     "@my-org/pkg1": "^0.1.0",
     "@my-org/pkg2": "^0.1.0"
+  },
+  "yarn-upgrade-all": {
+    "ignore": [
+      "@my-org/pkg1",
+      "@my-org/pkg2"
+    ]
   }
 }
