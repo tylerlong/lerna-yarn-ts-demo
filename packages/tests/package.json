@@ -1,0 +1,16 @@
+{
+  "name": "@my-org/tests",
+  "private": true,
+  "version": "0.1.0",
+  "description": "tests",
+  "author": "Tyler Long <tyler4long@gmail.com>",
+  "homepage": "https://github.com/tylerlong/lerna-yarn-ts-demo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylerlong/lerna-yarn-ts-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tylerlong/lerna-yarn-ts-demo/issues"
+  }
+}
