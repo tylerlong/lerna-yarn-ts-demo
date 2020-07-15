@@ -24,7 +24,6 @@
     "yarn-upgrade-all": "^0.5.4"
   },
   "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.yarnpkg.com"
+    "access": "public"
   }
 }
