@@ -1,7 +1,7 @@
 {
   "name": "@my-org/tests",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "tests",
   "author": "Tyler Long <tyler4long@gmail.com>",
   "homepage": "https://github.com/tylerlong/lerna-yarn-ts-demo",
@@ -23,8 +23,8 @@
     "yarn-upgrade-all": "^0.5.4"
   },
   "dependencies": {
-    "@my-org/pkg1": "^0.1.0",
-    "@my-org/pkg2": "^0.1.0"
+    "@my-org/pkg1": "^0.1.1",
+    "@my-org/pkg2": "^0.1.1"
   },
   "yarn-upgrade-all": {
     "ignore": [
