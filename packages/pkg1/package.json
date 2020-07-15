@@ -2,9 +2,6 @@
   "name": "@my-org/pkg1",
   "version": "0.1.0",
   "description": "My first package",
-  "keywords": [
-    "pkg1"
-  ],
   "author": "Tyler Long <tyler4long@gmail.com>",
   "homepage": "https://github.com/tylerlong/lerna-yarn-ts-demo",
   "license": "MIT",
@@ -15,5 +12,8 @@
   },
   "bugs": {
     "url": "https://github.com/tylerlong/lerna-yarn-ts-demo/issues"
+  },
+  "dependencies": {
+    "lodash": "^4.17.19"
   }
 }
