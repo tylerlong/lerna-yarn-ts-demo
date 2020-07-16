@@ -3,7 +3,7 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "lint": "lerna exec 'gts fix'",
+    "lint": "gts fix",
     "test": "lerna exec 'jest' --scope=@tylerlong/tests",
     "reset": "lerna clean -y && lerna bootstrap",
     "upgrade-all": "yarn-upgrade-all && lerna exec 'yarn-upgrade-all'",
@@ -11,7 +11,10 @@
     "all": "yarn upgrade-all && yarn reset && yarn lint && yarn test"
   },
   "devDependencies": {
+    "@types/node": "^14.0.23",
+    "gts": "^2.0.2",
     "lerna": "^3.22.1",
+    "typescript": "^3.9.6",
     "yarn-upgrade-all": "^0.5.4"
   }
 }
