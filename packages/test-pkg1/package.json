@@ -17,9 +17,6 @@
     "@types/lodash": "^4.14.157",
     "lodash": "^4.17.19"
   },
-  "devDependencies": {
-    "yarn-upgrade-all": "^0.5.4"
-  },
   "publishConfig": {
     "access": "public"
   }

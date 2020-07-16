@@ -17,9 +17,6 @@
     "@types/ramda": "^0.27.11",
     "ramda": "^0.27.0"
   },
-  "devDependencies": {
-    "yarn-upgrade-all": "^0.5.4"
-  },
   "publishConfig": {
     "access": "public"
   }
