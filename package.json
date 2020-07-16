@@ -7,6 +7,7 @@
     "test": "lerna exec 'jest' --scope=@tylerlong/tests",
     "reset": "lerna clean -y && lerna bootstrap",
     "upgrade-all": "yarn-upgrade-all && lerna exec 'yarn-upgrade-all'",
+    "compile": "lerna exec 'tsc' --ignore=@tylerlong/tests",
     "all": "yarn upgrade-all && yarn reset && yarn lint && yarn test"
   },
   "devDependencies": {

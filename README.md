@@ -27,3 +27,7 @@ yarn lerna add @tylerlong/test-pkg2 packages/tests
 ```
 yarn upgrade-all
 ```
+
+## Todo
+
+- ESLint in vscode doesn't work
