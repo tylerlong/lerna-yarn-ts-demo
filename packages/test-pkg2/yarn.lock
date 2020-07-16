@@ -7,11 +7,6 @@
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
   integrity sha512-rr+OQyAjxze7GgWrSaJwydHStIhHq2lvY3BOC2Mj7KnzI7XK0Uw1TOOdI9lDoajEbSWLiYgoo4f1R51erQfhPQ==
 
-"@types/node@^14.0.23":
-  version "14.0.23"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.23.tgz#676fa0883450ed9da0bb24156213636290892806"
-  integrity sha512-Z4U8yDAl5TFkmYsZdFPdjeMa57NOvnaf1tljHzhouaPEp7LCj2JKkejpI1ODviIAQuW4CcQmxkQ77rnLsOOoKw==
-
 "@types/ramda@^0.27.11":
   version "0.27.11"
   resolved "https://registry.yarnpkg.com/@types/ramda/-/ramda-0.27.11.tgz#a2efedc1fecc0faa2d3530eb53cf468e219f7c51"
@@ -73,11 +68,6 @@ ts-toolbelt@^6.3.3:
   version "6.13.6"
   resolved "https://registry.yarnpkg.com/ts-toolbelt/-/ts-toolbelt-6.13.6.tgz#4c9fad69bb3389323fe60982f18cd06b72f7d42a"
   integrity sha512-qqIexrhqCNOuSRCrJMOKor8UJxA4DYMB6fNpBmRAKJgmLXNj8TAiuCrs7Nm08fva+MEdQhEXmsnjBQarNSIWZg==
-
-typescript@^3.9.6:
-  version "3.9.6"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.6.tgz#8f3e0198a34c3ae17091b35571d3afd31999365a"
-  integrity sha512-Pspx3oKAPJtjNwE92YS05HQoY7z2SFyOpHo9MqJor3BXAGNaPUs83CuVp9VISFkSjyRfiTpmKuAYGJB7S7hOxw==
 
 yarn-upgrade-all@^0.5.4:
   version "0.5.4"
