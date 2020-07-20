@@ -10,6 +10,7 @@ This is a demo project to demonstrate how to use lerna + yarn + TypeScript toget
   - Sample dependency: `yarn-upgrade-all`, `gts`, `typescript`...etc.
 - If you want to publish a public scoped package to NPM, add `"publishConfig": {"access": "public"}` to that package's `package.json` file.
 - You need to NPM login as `@scope` user in order to publish `@scope/xxx`.
+  - Or you create an org named `scope` using your NPM account.
 - Each package could has its own configuration file such as `tsconfig.json` & `.eslintrc.json`, and this configuration file should extend root level configuration files (if they exist).
 
 
