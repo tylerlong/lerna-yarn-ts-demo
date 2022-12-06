@@ -477,6 +477,22 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
+"@tylerlong/test-pkg1@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@tylerlong/test-pkg1/-/test-pkg1-0.0.3.tgz#53f74e13edbc6a0cd4214a3cf95cd66fe3ec7594"
+  integrity sha512-cbKeMujYtD+SYazxHYvNUjr9c6p9UOFHB+ZZhl8J5XZ+QAp8rPgjAG1y/XT7fS0v2VPZlPG0vSSGIIOuIAvSXg==
+  dependencies:
+    "@types/lodash" "^4.14.157"
+    lodash "^4.17.19"
+
+"@tylerlong/test-pkg2@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@tylerlong/test-pkg2/-/test-pkg2-0.0.3.tgz#852646f047eda18a713a57c9d6a580d21c6978ad"
+  integrity sha512-0z6wTNvK/YVNkPOVM+x5w1xASbCPpGtaYhjBFjOu71jr9OFlKPiHG95LGB1MnGzBfG1JkfSzNFPX27RV+5H2LQ==
+  dependencies:
+    "@types/ramda" "^0.27.11"
+    ramda "^0.27.0"
+
 "@types/babel__core@^7.0.0", "@types/babel__core@^7.1.7":
   version "7.1.9"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.9.tgz#77e59d438522a6fb898fa43dc3455c6e72f3963d"
@@ -550,6 +566,11 @@
     jest-diff "^25.2.1"
     pretty-format "^25.2.1"
 
+"@types/lodash@^4.14.157":
+  version "4.14.191"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.191.tgz#09511e7f7cba275acd8b419ddac8da9a6a79e2fa"
+  integrity sha512-BdZ5BCCvho3EIXw6wUCXHe7rS53AIDPLE+JzwgT+OsJk53oBfbSmZZ7CX4VaRoN78N+TJpFi9QPlfIVNmJYWxQ==
+
 "@types/node@*":
   version "14.0.23"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.23.tgz#676fa0883450ed9da0bb24156213636290892806"
@@ -564,6 +585,13 @@
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@types/prettier/-/prettier-2.0.2.tgz#5bb52ee68d0f8efa9cc0099920e56be6cc4e37f3"
   integrity sha512-IkVfat549ggtkZUthUzEX49562eGikhSYeVGX97SkMFn+sTZrgRewXjQ4tPKFPCykZHkX1Zfd9OoELGqKU2jJA==
+
+"@types/ramda@^0.27.11":
+  version "0.27.66"
+  resolved "https://registry.yarnpkg.com/@types/ramda/-/ramda-0.27.66.tgz#f1a23d13b0087d806a62e3ff941e5e59b3318999"
+  integrity sha512-i2YW+E2U6NfMt3dp0RxNcejox+bxJUNDjB7BpYuRuoHIzv5juPHkJkNgcUOu+YSQEmaWu8cnAo/8r63C0NnuVA==
+  dependencies:
+    ts-toolbelt "^6.15.1"
 
 "@types/stack-utils@^1.0.1":
   version "1.0.1"
@@ -1112,9 +1140,9 @@ decimal.js@^10.2.0:
   integrity sha512-vDPw+rDgn3bZe1+F/pyEwb1oMG2XTlRVgAa6B4KccTEpYgF8w6eQllVbQcfIJnZyvzFtFpxnpGtx8dd7DJp/Rw==
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 deep-is@~0.1.3:
   version "0.1.3"
@@ -2783,6 +2811,11 @@ qs@~6.5.2:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
 
+ramda@^0.27.0:
+  version "0.27.2"
+  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.27.2.tgz#84463226f7f36dc33592f6f4ed6374c48306c3f1"
+  integrity sha512-SbiLPU40JuJniHexQSAgad32hfwd+DRUdwF2PlVuI5RZD0/vahUco7R8vD86J/tcEKKF9vZrUVwgtmGCqlCKyA==
+
 react-is@^16.12.0:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
@@ -3352,6 +3385,11 @@ ts-jest@^26.1.2:
     mkdirp "1.x"
     semver "7.x"
     yargs-parser "18.x"
+
+ts-toolbelt@^6.15.1:
+  version "6.15.5"
+  resolved "https://registry.yarnpkg.com/ts-toolbelt/-/ts-toolbelt-6.15.5.tgz#cb3b43ed725cb63644782c64fbcad7d8f28c0a83"
+  integrity sha512-FZIXf1ksVyLcfr7M317jbB67XFJhOO1YqdTcuGaq9q5jLUoTikukZ+98TPjKiP2jC5CgmYdWWYs0s2nLSU0/1A==
 
 tunnel-agent@^0.6.0:
   version "0.6.0"
